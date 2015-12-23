@@ -2,13 +2,20 @@
 <!DOCTYPE HTML>
 <html>
 
-   <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-     <link rel="stylesheet" href="style.css">
-       <title>My Blog</title>
-         <meta charset="UTF-8">
-   </head>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- jQuery library (served from Google) -->
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script src="./js/main.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="./css/jquery.bxslider.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My Blog</title>
+    <meta charset="UTF-8">
+</head>
 <body>
 
                             <header>
@@ -41,10 +48,17 @@
 
          </div>
            <div class="projects">
-               <h2 class="explore">explore projects</h2>
-               <div class="single_project"><img src="./images/Project_placeholder.png"> </div>
-               <div class="single_project"></div>
-               <div class="single_project"></div>
+               <div class="explore_project"><h2 class="explore">explore projects</h2></div>
+
+                       <div class="slider">
+                               <ul class="bxslider">
+                                       <li><img src="./images/Project_placeholder.png" /></li>
+                                       <li><img src="./images/project_placeholder1.png" /></li>
+                                       <li><img src="./images/project_placeholder2.png" /></li>
+                                       <li><img src="./images/Project_placeholder3.png" /></li>
+                                       <li><img src="./images/Project_placeholder4.png" /></li>
+                               </ul>
+                       </div>
 
            </div>
 
