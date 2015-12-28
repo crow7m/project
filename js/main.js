@@ -4,8 +4,8 @@
 $(document).ready(function(){
     $('.bxslider').bxSlider({
         minSlides: 3,
-        maxSlides: 6,
-        slideWidth: 400,
+        maxSlides: 3,
+        slideWidth: 200,
         slideMargin: 100
     });
 });
