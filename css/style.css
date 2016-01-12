@@ -48,14 +48,7 @@ table {
 }
 
 /*  Starting styles    Starting styles   Starting styles   Starting styles    Starting styles   Starting styles*/
-<<<<<<< HEAD
-body{
-    background-image: url("../images/sub_background.png");
-    background-repeat:  no-repeat;
-}
-=======
 
->>>>>>> 218ab988b9532cc9bbc349e2ebad4d7b1b874485
 h1.chapter_title{
     font-size: 18px;
     font-family:"Stratum2 Black", serif;
@@ -94,13 +87,10 @@ header{
 }
 .breadcrumb{
     padding-top: 10px;
-<<<<<<< HEAD
-    margin-left: 7%;
-=======
     margin-left: 15%;
->>>>>>> 218ab988b9532cc9bbc349e2ebad4d7b1b874485
     display: block;
     font-family: "Stratum2", serif;
+    width:100%;
     background: transparent;
     line-height:1.2em;
 }
@@ -120,11 +110,7 @@ header{
     width:51%;
     padding: 6% 5.5%;
     background-color: #c3dda9;
-
-
-
     margin-left: 10%;
-
     height:auto;
     display: inline-block;
     float: left;
@@ -149,15 +135,11 @@ header{
 }
 .sub-icon{
     background-image: url("../images/hex_green.svg");
-<<<<<<< HEAD
-    margin-top: 100px;
-=======
->>>>>>> 218ab988b9532cc9bbc349e2ebad4d7b1b874485
     display: block;
     height:232px;
     width:200px;
     float: right;
-    
+
 }
 .sub-icon > img{
     display: block;
@@ -197,6 +179,7 @@ header{
     border: 1px solid #d8d4d4;
     text-align: center;
     line-height: 40px;
+    box-sizing: border-box;
 }
 .site_footer{
     margin-top: 100px;
@@ -208,5 +191,4 @@ header{
     line-height: 1.321;
     background-color: rgb(0, 0, 0);
     opacity: 0.4;
-
 }
