@@ -179,6 +179,7 @@ header{
     border: 1px solid #d8d4d4;
     text-align: center;
     line-height: 40px;
+    box-sizing: border-box;
 }
 .site_footer{
     margin-top: 100px;
