@@ -156,6 +156,7 @@ header{
     width:80%;
     padding: 10%;
 }
+/*project style*/
 .projects{
     display: block;
     clear: both;
@@ -191,6 +192,7 @@ header{
     box-sizing: border-box;
 }
 
+
 footer{
     opacity: 1;
     background-color: #999;
@@ -223,6 +225,5 @@ footer >  .footer_content > a:last-child{
 
 footer >  .footer_content > a > img {
     max-height: 40px;
+    padding: 10px;
 }
-
-
