@@ -220,6 +220,7 @@ footer >  .footer_content > a {
 footer >  .footer_content > a:last-child{
     width:19%;
 }
+
 footer >  .footer_content > a > img {
     max-height: 40px;
 }
