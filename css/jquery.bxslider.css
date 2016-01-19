@@ -91,30 +91,24 @@
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {
-	left: 10px;
-	background: url(../images/controls.png) no-repeat 0 -32px;
+	left: -10%;
+	background: url(../images/arrow-left.png)no-repeat;
 }
 
 .bx-wrapper .bx-next {
-	right: 10px;
-	background: url(../images/controls.png) no-repeat -43px -32px;
+	right: -10%;
+	background: url(../images/arrow-right.png)no-repeat ;
 }
 
-.bx-wrapper .bx-prev:hover {
-	background-position: 0 0;
-}
 
-.bx-wrapper .bx-next:hover {
-	background-position: -43px 0;
-}
 
 .bx-wrapper .bx-controls-direction a {
 	position: absolute;
-	top: 50%;
+	top: 30%;
 	margin-top: -16px;
 	outline: 0;
-	width: 32px;
-	height: 32px;
+	width: 51px;
+	height: 120px;
 	text-indent: -9999px;
 	z-index: 9999;
 }
@@ -156,7 +150,7 @@
 
 .bx-wrapper .bx-controls-auto .bx-stop:hover,
 .bx-wrapper .bx-controls-auto .bx-stop.active {
-	background-position: -86px -33px;
+	background: url(../images/controls.png) -86px -33px no-repeat;
 }
 
 /* PAGER WITH AUTO-CONTROLS HYBRID LAYOUT */
