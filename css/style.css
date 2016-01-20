@@ -49,6 +49,7 @@ table {
 
 /*  Starting styles    Starting styles   Starting styles   Starting styles    Starting styles   Starting styles*/
 
+
 h1.chapter_title{
     font-size: 18px;
     font-family:"Stratum2 Black", serif;
@@ -87,7 +88,13 @@ header{
 }
 .breadcrumb{
     padding-top: 10px;
-
+    padding-left: 15%;
+    display: block;
+    font-family: "Stratum2", serif;
+    width:100%;
+    background: transparent;
+    line-height:1.2em;
+    box-sizing: border-box;
 }
 .colored_logo{
     position: absolute;
@@ -96,6 +103,16 @@ header{
     margin:15px 10% 0 0 ;
     z-index: 5;
 
+}
+
+.content_head {
+    display: block;
+    width: 100%;
+    background-image: url("../images/sub_background.png");
+    background-repeat:  no-repeat;
+    background-position: center;
+    height: 542px;
+}
 
 .main_description{
     position: relative;
@@ -186,7 +203,7 @@ footer{
     height: 40px;
     width: 100%;
     box-sizing: border-box;
-  }
+}
 footer > .footer_content {
     width: 80%;
     height: 40px;
@@ -209,4 +226,83 @@ footer >  .footer_content > a:last-child{
 footer >  .footer_content > a > img {
     max-height: 40px;
     padding: 10px;
+}
+
+/* HOME page styles home page styles home page styles*/
+
+h1.home_page{
+    font-size: 34px;
+    line-height: 25px;
+    color: #363636;
+}
+p.home_page{
+    font-size: 20px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 50px;
+}
+.content_head_home{display: block;
+width: 100%;
+background-image: url("../images/background.jpg");
+background-repeat:  no-repeat;
+background-position: center;
+height: 542px;
+}
+#heading{
+    text-align: center;
+    height: 65%;
+    margin-top: 270px;
+}
+.test-logo{
+    text-align: center;
+    box-sizing: border-box;
+    position:relative;
+    width:433px!important;
+    top:70px;
+    left:0;
+    border:0;
+    right:0;
+    margin: auto;
+    height:177px;
+    background:url("../images/logo.png") no-repeat;
+}
+.logo-right{
+    position:absolute;
+    top:0;
+    right:0;
+    width:217px;
+    height:177px;
+}
+.logo-left{
+    position:absolute;
+    top:0;
+    left:0;
+    width:217px;
+    height:177px;
+}
+h1.text1, h1.text2 {
+    display: inline;
+    font-family: 'stratum2_bold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 27pt;
+}
+h1.text1::after {
+    content: '  /  ';
+    font-family: "stratum black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#0000ff;
+    font-size: 27pt;
+}
+
+.difference{
+    text-decoration: none!important;
+}
+
+#font1{
+    color: #363636;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 100px;
+    background:url('../images/angle.png') no-repeat;
+    background-position: 20px 20px;
 }
