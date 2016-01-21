@@ -54,6 +54,7 @@ h1.chapter_title{
     font-family:"Stratum2 Black", serif;
     text-transform: uppercase;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 h2.sub_title{
     margin: 0.5em 0  1em 0;
@@ -101,18 +102,32 @@ header{
     right: 0;
     margin:15px 10% 0 0 ;
     z-index: 5;
-
 }
-
-.content_head, .content_head_home {
+.content_head_home{
+  background-image: url("../images/background.png");
+  }
+.content_head{
+  background-image: url("../images/sub_background.png");
+}
+.content_head_subchapter{
+  background-image: url("../images/adim_background.png");
+  }
+.content_head, .content_head_home,
+.content_head_subchapter,.content_head_mad{
     display: block;
     width: 100%;
-    background-image: url("../images/sub_background.png");
     background-repeat:  no-repeat;
     background-position: center;
     height: 542px;
+    margin-bottom: 70px;
 }
+.content_head_mad{
+  background-image: url("../images/mad_background.png");
 
+}
+.content_head_home{
+background-image: url("../images/background.jpg");
+}
 .main_description{
     position: relative;
     text-align: justify;
@@ -134,13 +149,29 @@ header{
     bottom: 0;
     right: 0;
 }
+.text_subchapter{
+  width: 100%;
+}
 .text{
-    width:65%;
+  width: 65%;
+}
+.text, .text_subchapter{
     float: left;
     display: block;
 }
+div.subchapter{
+  width: 35%;
+}
 .text p {
     font-size: 15px;
+}
+a.read_more{
+  margin-top: 10px;
+  text-decoration: none;
+  color: #363636;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 10px;
 }
 .sub-icon{
     background-image: url("../images/hex_green.svg");
@@ -179,6 +210,7 @@ header{
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
+    padding-bottom: 10px;
 
 }
 .slider .bxdesc {
@@ -253,10 +285,6 @@ p.home_page{
     color: #363636;
     margin-bottom: 50px;
 }
-.content_head_home{
-background-image: url("../images/background.jpg");
-margin-bottom: 70px;
-}
 #heading{
     text-align: center;
     padding-top: 55px;
@@ -317,4 +345,32 @@ h1.text1::after {
     height: 100px;
     background:url('../images/angle.png') no-repeat;
     background-position: 20px 20px;
+}
+.subchapter_wrapp{
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      padding-bottom: 150px;
+
+}
+.mad_sub{
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.Subchapters_svg{
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+.pic_mad_sub{
+  width: 250px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.pic_sub{
+  height: auto;
+  width: 100px;
 }
