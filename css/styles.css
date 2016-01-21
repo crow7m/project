@@ -118,12 +118,12 @@ header{
     text-align: justify;
     width:51%;
     padding: 6% 5.5%;
-    background-color: #c3dda9;
     margin-left: 10%;
     height:auto;
     display: inline-block;
     float: left;
 }
+
 .main_description:before{
     background: #fff;
     border-color: #758565 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #758565;
@@ -202,7 +202,8 @@ footer{
     height: 40px;
     width: 100%;
     box-sizing: border-box;
-  }
+}
+
 footer > .footer_content {
     width: 80%;
     height: 40px;
