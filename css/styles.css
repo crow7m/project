@@ -2,7 +2,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -48,6 +47,7 @@ table {
 }
 
 /*  Starting styles    Starting styles   Starting styles   Starting styles    Starting styles   Starting styles*/
+
 
 h1.chapter_title{
     font-size: 18px;
@@ -104,7 +104,7 @@ header{
 
 }
 
-.content_head {
+.content_head, .content_head_home {
     display: block;
     width: 100%;
     background-image: url("../images/sub_background.png");
@@ -148,7 +148,6 @@ header{
     height:232px;
     width:200px;
     float: right;
-
 }
 .sub-icon > img{
     display: block;
@@ -157,13 +156,17 @@ header{
     padding: 10%;
 }
 /*project style*/
-.projects{
+.home_page_discription{
+  height: 100%;
+  text-align: center;
+}
+.projects, .home_page_discription{
     display: block;
     clear: both;
     width:80%;
     margin:0 auto;
 }
-.explore_project{
+.explore_project, .read-more{
     height: 100px;
     line-height: 100px;
     width:100%;
@@ -191,8 +194,6 @@ header{
     line-height: 40px;
     box-sizing: border-box;
 }
-
-
 footer{
     opacity: 1;
     background-color: #999;
@@ -227,4 +228,95 @@ footer >  .footer_content > a:last-child{
 footer >  .footer_content > a > img {
     max-height: 40px;
     padding: 10px;
+}
+
+/* HOME page styles home page styles home page styles*/
+h1.home_page{
+  color: #363636;
+  font-family: "Stratum2Bold", serif;
+}
+h1.home_page, h1.r-more{
+    font-size: 34px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+h1.r-more{
+  font-size: 30px;
+  color:#0000ff;
+  font-family: "Stratum2Bold", serif;
+}
+#arrow_blue{
+  padding-bottom: 50px;
+}
+p.home_page{
+    font-size: 20px;
+    line-height: 25px;
+    color: #363636;
+    margin-bottom: 50px;
+}
+.content_head_home{
+background-image: url("../images/background.jpg");
+margin-bottom: 70px;
+}
+#heading{
+    text-align: center;
+    padding-top: 55px;
+    }
+.test-logo{
+    text-align: center;
+    box-sizing: border-box;
+    position:relative;
+    width:433px!important;
+    top:70px;
+    left:0;
+    border:0;
+    right:0;
+    margin: auto;
+    height:177px;
+    margin-bottom: 55px;
+    background:url("../images/logo.png") no-repeat;
+}
+.logo-right{
+    position:absolute;
+    top:0;
+    right:0;
+    width:217px;
+    height:177px;
+}
+.logo-left{
+    position:absolute;
+    top:0;
+    left:0;
+    width:217px;
+    height:177px;
+}
+h1.text1, h1.text2 {
+    display: inline;
+    font-family: 'stratum2_bold', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 27pt;
+}
+.text1:hover, .text2:hover{
+  color:#0000ff;
+}
+h1.text1::after {
+    content: '  /  ';
+    font-family: "stratum black", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#0000ff;
+    font-size: 27pt;
+}
+
+.difference{
+    text-decoration: none!important;
+}
+
+#font1{
+    color: #363636;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 100px;
+    background:url('../images/angle.png') no-repeat;
+    background-position: 20px 20px;
 }
