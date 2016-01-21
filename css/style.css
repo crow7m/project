@@ -27,8 +27,13 @@ article, aside, details, figcaption, figure,
 footer, header, menu, nav, section {
     display: block;
 }
+html {
+    height: 100%;
+}
 body {
     line-height: 1;
+    min-height: 100%;
+    position: relative;
 }
 ol, ul {
     list-style: none;
@@ -99,11 +104,16 @@ header{
     position: absolute;
     display: block;
     right: 0;
-    margin:15px 10% 0 0 ;
+    margin:25px 10% 0 0 ;
     z-index: 5;
 
 }
-
+.container_content {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
 .content_head, .content_head_home {
     display: block;
     width: 100%;
@@ -113,17 +123,18 @@ header{
     height: 542px;
 }
 
-.main_description{
+.main_description, .main_description_single {
     position: relative;
     text-align: justify;
-    width:51%;
-    padding: 6% 5.5%;
-    margin-left: 10%;
+    width:65%;
+    padding: 6% 3.5%;
     height:auto;
     display: inline-block;
     float: left;
 }
-
+.main_description_single {
+    width: 45%;
+}
 .main_description:before{
     background: #fff;
     border-color: #758565 rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) #758565;
@@ -139,21 +150,21 @@ header{
     float: left;
     display: block;
 }
+.main_description_single > .text {
+    width: 75%;
+}
 .text p {
     font-size: 15px;
 }
 .sub-icon{
-    background-image: url("../images/hex_green.svg");
     display: block;
-    height:232px;
-    width:200px;
     float: right;
 }
-.sub-icon > img{
-    display: block;
-    height:auto;
-    width:80%;
-    padding: 10%;
+
+/*galery styles*/
+.galery_single {
+    width: 45%;
+    float: right;
 }
 /*project style*/
 .home_page_discription{
@@ -198,7 +209,8 @@ footer{
     opacity: 1;
     background-color: #999;
     clear: both;
-    position: relative;
+    position: absolute;
+    bottom:0;
     display: block;
     height: 40px;
     width: 100%;
