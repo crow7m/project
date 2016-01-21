@@ -25,15 +25,3 @@ $(document).ready(function () {
    $('.text2').css('color', 'black');
   });
  });
- /*
-   $(document).ready(function(){ $('.logo-left, .text1').hover(function () {
-        $('.test-logo').css('backgroundPosition', '0 -177px');
-    }, function () {
-        $('.test-logo').css('backgroundPosition', '0 0');
-    });
-    $('.logo-right, .text2').hover(function () {
-        $('.test-logo').css('backgroundPosition', '0 -354px');
-    }, function () {
-        $('.test-logo').css('backgroundPosition', '0 0');
-    });
-  });*/
